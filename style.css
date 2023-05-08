@@ -1,0 +1,653 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section#Sign_in_pillofun {
+    background: url(img/Bg-banner);
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+.row.back_button {
+    margin-bottom: 100px;
+}
+section#Sign_in_pillofun button.back_button {
+    background: transparent;
+    border: none;
+    color: #B2B2B2;
+    text-align: left;
+    font-size:25px;
+    font-family: Inter;
+    letter-spacing: 3.75px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+button.back_button img {
+    margin-right: 25px;
+}
+.sign_up_content h1{
+    text-align: left;
+    font:60px;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: poppins;
+    font-weight: 500;
+}
+.sign_up_content p {
+    color: #B2B2B2;
+    font-size: 28px;
+    font-family: poppins;
+    letter-spacing: 1.4px;
+    line-height: 46px;
+    margin-bottom: 40px;
+}
+.sign_up_content p span {
+    font-weight: 600;
+}
+label.form-label {
+    text-align: left;
+    font: normal normal normal 23px Poppins;
+    letter-spacing: 0.46px;
+    color: #B7B7B7;
+    opacity: 1;
+}
+input{
+    width: 576px;
+    height: 97px;
+    background: transparent linear-gradient(90deg, #4b4a4c 0%, #45464a 100%) 0% 0%;
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+    opacity: 1;
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+}
+input::placeholder, input::placeholder{
+    text-align: left;
+    font-weight: normal;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.05px;
+    color: #B7B7B7;
+    opacity: 0.45;
+    padding-left: 60px;
+   ;
+}
+.email_input_reletiv {
+    position: relative;
+}
+span.message_icon {
+    position: absolute;
+    left: 23px;
+    top: 74px;
+    z-index: 9;
+}
+input{
+    width: 576px;
+    height: 97px;
+    background: transparent linear-gradient(90deg, #4b4a4c 0%, #45464a 100%) 0% 0%;
+    background-repeat: no-repeat;
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+    opacity: 1;
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+}
+.paasword_input_reletive{
+    position: relative;
+}
+span.icon_lock{
+    position: absolute;
+    left: 23px;
+    top: 74px;
+    z-index: 9;
+}
+span.icon_eyes {
+    position: absolute;
+    top: 77px;
+    right: 78px;
+}
+span.icon_eyes img {
+    width: 31px;
+}
+.forget_paasword button {
+    text-align: left;
+    font: normal normal normal 22px/30px Inter;
+    letter-spacing: 0.44px;
+    color: #B7B7B7;
+    opacity: 1;
+}
+.forget_paasword button {
+    background: transparent;
+    border: none;
+    text-align: left;
+    font-weight: normal;
+    font-size: 22px;
+    font-family:'inter', sans-serif;
+    letter-spacing: 0.44px;
+    color: #B7B7B7;
+    opacity: 1;
+}
+.forget_paasword {
+    text-align: right;
+    margin-right: 63px;
+}
+button.btn.btn-rigister {
+    text-align: left;
+    font-weight: normal;
+    font-size: 30px;
+    font-family:'Poppins';
+    letter-spacing: 1.5px;
+    color: #E5E5E5;
+    opacity: 1;
+}
+button.btn.btn-login {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #FFFFFF;
+    border-radius: 10px;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'inter', sans-serif;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 1;
+    padding: 5px 43px;
+    margin-left: 50px;
+}
+.button_two_flex {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+.button_two_flex {
+    position: relative;
+}
+span.hr_line:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 36px;
+    background: #b6b6b6;
+    bottom: 12px;
+    left: 283px;
+}
+.module {
+    background: #262c31;
+    color: white;
+    border-radius: 89px;
+    width: 161px !important;
+    height: 161px !important;
+    padding: 45px;
+}
+.circle_time {
+    max-width: 168px;
+    position: relative;
+    background: transparent linear-gradient(90deg, #FFFFFF 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    padding: 3px;
+    border-radius: 50%;
+    margin-top: -95px;
+}
+h4.time_hour {
+    text-align: left;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'inter', sans-serif;
+    letter-spacing: 1.75px;
+    opacity: 1;
+}
+h4.time_hour span {
+    letter-spacing: 1.75px;
+    color: #787171;
+}
+p.support {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'inter', sans-serif;
+    letter-spacing: 0.9px;
+    color: #B2B2B2;
+    opacity: 1;
+}
+.wi_cont p.strong {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 21px;
+    font-family: 'Poppins';
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.wi_cont {
+    margin-left: 10px;
+}
+.wi_cont p {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'inter', sans-serif;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 0;
+}
+.winner_content {
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    padding: 9px 15px;
+    background: linear-gradient(0deg, rgb(192 52 52 / 84%) 0%, rgb(125 130 134 / 47%) 100%);
+    border-bottom: 2px solid red;
+    width: 450px;
+    height: 98px;
+}
+.winner_content {
+    position: absolute;
+    top: 83%;
+    right: -130px;
+}
+.top_winner_content.top_winner_two .winner_content {
+    position: absolute;
+    top: 102%;
+    right: -50%;
+}
+/* =================Registerform css start================ */
+section#Register_form {
+    background: url(img/rigster.png);
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+section#Register_form button.back_button {
+    background: transparent;
+    border: none;
+    color: #B2B2B2;
+    text-align: left;
+    font-size:25px;
+    font-family: Inter;
+    letter-spacing: 3.75px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.email_flex {
+    display: flex;
+}
+section#Register_form input {
+    width: 419px !important;
+    height: 77px !important;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+section#Register_form span.message_icon {
+    position: absolute;
+    left: 23px;
+    top: 69px;
+    z-index: 9;
+}
+section#Register_form .sign_up_content {
+    display: flex;
+    align-items: center;
+}
+section#Register_form .button_two_flex {
+    position: relative;
+    margin-top: 80px;
+    text-align: left;
+}
+section#Register_form span.hr_line:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 36px;
+    background: #b6b6b6;
+    bottom: 12px;
+    left: 151px;
+}
+section#Register_form .circle_time {
+    position: absolute;
+    left: -108px;
+}
+section#Register_form .winner_content {
+    position: absolute;
+    top: 62%;
+    right: -130px;
+}
+section#Register_form .top_winner_content.top_winner_two .winner_content {
+    position: absolute;
+    top: 78%;
+    right: -176px;
+}
+section#Register_form .sign_up_content p {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+/* ===========Forget paasword css start=========== */
+section#Forgot_Password {
+    background: url(img/Bg-banner);
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+section#Forgot_Password button.back_button {
+    background: transparent;
+    border: none;
+    color: #B2B2B2;
+    text-align: left;
+    font-size:25px;
+    font-family: Inter;
+    letter-spacing: 3.75px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+section#Forgot_Password .button_two_flex {
+    margin-top: 0;
+}
+section#Forgot_Password button.btn.btn-login {
+    margin-left: 0px;
+}
+section#Forgot_Password .email_input_reletiv {
+    margin-bottom: 50px !important;
+}
+section#Forgot_Password .winner_content {
+    position: absolute;
+    top: 133%;
+    right: -130px;
+}
+section#Forgot_Password .top_winner_content.top_winner_two .winner_content {
+    position: absolute;
+    top: 164%;
+    right: -50%;
+}
+
+/* =========Forget paasword page css===========  */
+section#Forgot_Password input#varification_code {
+    text-align: center;
+    letter-spacing: 1.75px;
+    color: #D5D1D1;
+    opacity: 1;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+section#Forgot_Password input#varification_code::placeholder{
+    text-align: center;
+    letter-spacing: 1.75px;
+    color: #D5D1D1;
+    opacity: 1;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+div#resend_mail {
+    letter-spacing: 0.44px;
+        color: #B7B7B7;
+    opacity: 1;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+a.resend_email {
+text-decoration: none;
+letter-spacing: 0.44px;
+        color: #B7B7B7;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* New Paasword changes css  */
+section#New_Password {
+    background: url(img/rigster.png);
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+section#New_Password button.back_button {
+    background: transparent;
+    border: none;
+    color: #B2B2B2;
+    text-align: left;
+    font-size:25px;
+    font-family: Inter;
+    letter-spacing: 3.75px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+section#New_Password button.btn.btn-login {
+    margin-left: 0;
+}
+
+section#New_Password .top_winner_content.top_winner_two .winner_content {
+    position: absolute;
+    top: 106%;
+    right: -50%;
+}
+
+/* ==========ipad pro media query ===========*/
+@media screen and (max-width: 1024px){
+    section#Sign_in_pillofun {
+        height: 100vh;
+        background-position: center;
+    }
+    .winner_content {
+        width: 369px;
+        height: 98px;
+    }
+    .top_winner_content.top_winner_two .winner_content {
+        position: absolute;
+        top: 120%;
+        right: -4%;
+    }
+    .winner_content {
+        position: absolute;
+        top: 100%;
+        right: -8px;
+    }
+    .circle_time {
+        position: absolute;
+    }
+
+    section#Register_form {
+        background: url(img/rigster.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    section#Register_form input {
+        width: 348px !important;
+    }
+    section#Register_form .top_winner_content.top_winner_two .winner_content {
+        position: relative;
+        top: 65%;
+        right: -542px;
+    }
+    section#Register_form .winner_content {
+        position: absolute;
+        top: 120%;
+        right: -9px;
+    }
+    section#Register_form .top_winner_content.top_winner_two .winner_content {
+        position: absolute;
+        top: 103%;
+        right: 33px;
+    }
+    section#Register_form .circle_time {
+        position: absolute;
+        left: 106px;
+        top: -72px;
+    }
+}
+
+
+/* ==========ipad 768px media query ===========*/
+
+@media screen and (max-width: 768px){
+.circle_time {
+    top: -726px !IMPORTANT;
+    right: 0;
+}
+span.hr_line:before {
+    left: 311px;
+}
+.winner_content {
+    position: relative;
+    top: 118%;
+    right: -160px;
+}
+.top_winner_content.top_winner_two .winner_content {
+    position: absolute;
+    top: 120%;
+    right: 24%;
+}
+.button_two_flex {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+section#Sign_in_pillofun {
+    height: 1089px;
+    background-position: center;
+}
+}
+
+/* ==========ipad 600px media query ===========*/
+
+@media screen and (max-width: 600px){
+    .winner_content {
+        position: relative;
+        top: 118%;
+        right: -18px;
+    }
+    .top_winner_content.top_winner_two .winner_content {
+        position: absolute;
+        top: 120%;
+        right: 4%;
+    }
+    input {
+        height: 68px;
+    }
+    span.message_icon {
+        top: 63px;
+    }
+    span.icon_lock {
+        top: 62px;
+    }
+    .module {
+        width: 135px !important;
+        height: 135px !important;
+        padding: 28px;
+    }
+
+    .email_flex {
+        display: inherit;
+    }
+    section#Register_form {
+        height: 100%;
+        padding: 37px 0;
+    }
+    section#Register_form .sign_up_content {
+        display: inherit;
+        align-items: center;
+    }
+    section#Register_form .sign_up_content p {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    section#Register_form input {
+        height: 54px !important;
+        margin-right: 0px;
+    }
+    section#Register_form span.message_icon {
+        top: 54px;
+    }
+    section#Register_form span.icon_lock {
+        top: 52px;
+    }
+    span.icon_eyes {
+        top: 59px;
+    }
+    .row.back_button {
+        margin-bottom: 40px;
+    }
+    section#Register_form .circle_time {
+        max-width: 144px;
+        position: relative;
+    }
+    section#Register_form input {
+        width: 100% !important;
+    }
+    section#Register_form .button_two_flex {
+        position: relative;
+        margin-top: 40px;
+        text-align: center;
+    }
+    section#Register_form  button.btn.btn-login {
+        margin-left: 0;
+    }
+    span.hr_line {
+        display: none;
+    }
+    section#Register_form .winner_content {
+        position: inherit;
+        top: 120%;
+        right: -9px;
+    }
+    section#Register_form .top_winner_content.top_winner_two .winner_content {
+        position: inherit;
+        top: 103%;
+        right: 33px;
+    }
+    section#Register_form  .winner_content {
+        width: 100%;
+    }
+    section#Register_form .top_winner_content.top_winner_two {
+        margin-top: 20px;
+    }
+    section#Register_form .circle_time {
+        position: absolute !important;
+        left: 257px;
+        top: -1060px !important;
+    }
+    section#Forgot_Password .winner_content {
+        position: inherit;
+    }
+    section#Forgot_Password .top_winner_content.top_winner_two .winner_content {
+        position: inherit;
+    }
+    section#Forgot_Password .winner_content {
+        position: inherit;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section#Forgot_Password {
+        height: 100%;
+        padding: 40px 0;
+    }
+    section#New_Password .top_winner_content.top_winner_two .winner_content {
+        position: absolute;
+        top: 106%;
+        right: -50%;
+    }
+    section#New_Password .winner_content {
+        position: inherit;
+    }
+    section#New_Password .top_winner_content.top_winner_two .winner_content {
+        position: inherit;
+        top: 106%;
+        right: -50%;
+    }
+    section#New_Password .top_winner_content.top_winner_two {
+        margin-top: 20px;
+    }
+    section#New_Password {
+        height: 100%;
+        padding: 40px 0;
+    }
+}
